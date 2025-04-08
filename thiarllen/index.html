@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+.important {
+  background-color: rgb(62, 62, 104);
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #463d66;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #f3ecec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(43, 184, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 2;
+}
+
+.text-container p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.text-container strong {
+    color: #bd3737;
+}
+</style>
+</head>
+<header>
+<h1 class="important">FICHA DO ALUNO</h1>
+</header>
+<body>
+ <div class="container">
+        <h1>Dados do Aluno</h1>
+        <div class="content">
+            <!-- Imagem -->
+            <div class="image-container">
+                <img src="images.jpeg" alt="Foto do Aluno">
+            </div>
+
+            <!-- Parágrafos com dados -->
+            <div class="text-container">
+                <p><strong>Nome:</strong> Angel </p>
+                <p><strong>Idade:</strong> 18 </p>
+                <p><strong>Email:</strong> anjos.thiarllen@escola.pr.gov.br </p>
+                <p><strong>Telefone:</strong> 45 99847 6008 </p>
+                <p><strong>Endereço:</strong> Cascavel PR </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
